@@ -1,0 +1,25 @@
+:root{color-scheme:dark;--ink:#fff6f4;--muted:#e0cbd0;--rose:#ff6687;--rose-deep:#e34269;--rose-pale:#40202e;--plum:#190f1c;--paper:#110d16}
+html{background:#110d16}
+body{color:var(--ink)}
+.page-shell{background:radial-gradient(ellipse at 8% 8%,#612336 0,transparent 38%),radial-gradient(ellipse at 94% 89%,#302044 0,transparent 39%),linear-gradient(135deg,#100d17,#1b101c 52%,#120d19)}
+.page-shell:before,.page-shell:after{border-color:#ffffff0b}
+.page-shell:before{box-shadow:0 0 0 45px #ffffff05,0 0 0 90px #ffffff03}
+.page-shell:after{box-shadow:0 0 0 36px #ffffff05,0 0 0 72px #ffffff03}
+.ambient-one{background:radial-gradient(circle,#c8375c88,transparent 69%);opacity:.55}
+.ambient-two{background:radial-gradient(circle,#7653a188,transparent 70%);opacity:.5}
+.card{border-color:#ffffff1b;background:linear-gradient(150deg,rgba(38,25,38,.95),rgba(26,19,31,.92));box-shadow:0 32px 90px #0008,0 8px 24px #0005,inset 0 1px #ffffff18}
+.topline{color:#d7b6bf}.tiny-heart{color:#ff879e}
+.flower{background:radial-gradient(circle at 30% 24%,#54303f 0,#35202e 60%,#271a2c);color:#ff829b;box-shadow:0 10px 28px #0004,inset 0 1px #ffffff18}
+.flower i{background:linear-gradient(145deg,#ff96a7,#d7476d);box-shadow:0 4px 12px #0006}
+.step-label{color:#ff9bab}
+h1{color:#fff8f6;text-shadow:0 3px 24px #0005}h1 em{color:#ff8299}
+.copy{color:#e4d5d8}
+.btn-yes{background:linear-gradient(120deg,#ff718c,#e3466d);box-shadow:0 9px 26px #d6386255,inset 0 1px #ffffff65}
+.btn-yes:hover{background:linear-gradient(120deg,#ff8499,#ed5577);box-shadow:0 12px 30px #dc3f6c66,inset 0 1px #ffffff70}
+.btn-no{background:#2c202e;color:#ffe3e6;border-color:#70404f;box-shadow:0 5px 16px #0003}
+.btn-no:hover{background:#392532;box-shadow:0 8px 21px #0005}
+.hint{color:#cdb9c1}
+.progress-dot{background:#51404d}.progress-dot.active{background:#ff8198;box-shadow:0 0 0 3px #ff81981c}.progress-line{background:#51404d}
+footer{color:#c6b2bb}footer span{color:#ff8299}
+.floating-heart{color:#ff91a4;opacity:.48}
+@media(hover:none){.btn-yes:hover{box-shadow:0 9px 26px #d6386255,inset 0 1px #ffffff65}}
